@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+#contact{
+    width: 85%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+#contact h2{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 7.5rem;
+    margin-bottom: 8rem;
+}
+
+#contact > p{
+    margin-bottom: 7.5rem;
+}
+
+#form{
+    width: calc(85% - 42rem);
+    margin: auto;
+    padding: 11.5rem 21rem;
+    border-radius: 10rem;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+    font-size: 3rem;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    margin-bottom: 23rem;
+}
+
+#form .row{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+#form p{
+    color: #C40018;
+}
+
+label{
+    width: 20%;
+}
+
+input, textarea{
+    width: 50%;
+    border: none;
+    box-shadow: inset 0 3px 6px rgba(0, 0, 0, 16%);
+    padding: .5rem;
+    font-size: 28px;
+}
+
+
+textarea{
+    height: 373px;
+}
+
+.button_wrap{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.button_wrap button{
+    font-size: 3.25rem;
+    background: none;
+    border: 1px solid #3F3F3F;
+    padding: 3rem 10rem;
+    font-weight: 600;
+}

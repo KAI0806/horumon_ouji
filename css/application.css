@@ -28,6 +28,10 @@ h3{
     margin: 0;
 }
 
+h4{
+    margin: 0;
+}
+
 p{
     margin: 0;
 }
@@ -42,6 +46,14 @@ p{
 
 .block_line{
     font-family: ta-f1blockline, sans-serif;
+}
+
+.pc_only{
+    display: block;
+}
+
+.sp_only{
+    display: none;
 }
 
 header{
@@ -66,6 +78,12 @@ header .wrap{
 
 header .wrap .header_logo{
     height: 11.5rem;
+    transition: all .2s ease-in-out;
+}
+
+header .wrap .header_logo:hover{
+    opacity: .3;
+    transition: all .3s ease-in-out;
 }
 
 header .wrap nav{
@@ -80,15 +98,39 @@ header .wrap nav ul{
 
 header .wrap nav ul img{
     height: 5.65rem;
+    transition: all .2s ease-in-out;
+}
+
+header .wrap nav ul img:hover{
+    opacity: .3;
+    transition: all .3s ease-in-out;
 }
 
 main{
     padding-top: 18rem;
 }
 
+
+#kv{
+    background: url("../img/kv_pc.jpg") no-repeat center center/cover;
+    height: 80.1rem;
+    width: 92.86%;
+    position: relative;
+}
+
+#kv p{
+    transform: rotateZ(90deg);
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    position: absolute;
+    left: -18rem;
+    bottom: 45%;
+    color: #3F3F3F;
+}
+
+
 .side_menu{
     position: fixed;
-    top: 20rem;
+    top: 18rem;
     right: 0;
     width: 7.14%;
     display: flex;
@@ -97,6 +139,7 @@ main{
     align-items: center;
     height: 80.1rem;
     z-index: 999;
+    background: #F5F0E3;
 }
 
 .side_menu > div{
@@ -123,6 +166,12 @@ main{
 
 .side_menu img{
     width: 5.8rem;
+    transition: all .2s ease-in-out;
+}
+
+.side_menu img:hover{
+    opacity: .3;
+    transition: all .3s ease-in-out;
 }
 
 .side_menu > a img{
@@ -133,6 +182,23 @@ footer{
     background: #C40018;
     color: white;
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    position: relative;
+}
+
+footer .footer_recruit{
+    position: absolute;
+    background: #418D43;
+    width: 52rem;
+    height: 14rem;
+    top: -14rem;
+    right: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .footer_recruit a{
+    font-size: 4.6rem;
 }
 
 footer > p{
@@ -159,6 +225,16 @@ footer .footer_logo{
     margin-bottom: 7rem;
 }
 
+footer .wrap a{
+    opacity: 1;
+    transition: all .2s ease-in-out;
+}
+
+footer .wrap a:hover{
+    opacity: .5;
+    transition: all .3s ease-in-out;
+}
+
 footer .wrap .left div{
     display: flex;
     justify-content: space-between;
@@ -170,11 +246,11 @@ footer .wrap .left{
 }
 
 footer .wrap .center{
-    width: 30%;
+    width: 40%;
 }
 
 footer .wrap .right{
-    width: 30%;
+    width: 31%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -194,11 +270,179 @@ footer .wrap .right a{
 footer .wrap .right a::before{
     position: absolute;
     content: "";
-    height: 15px;
-    width: 17px;
+    height: 1.6rem;
+    width: 2rem;
     left: -3rem;
-    /* margin-right: -50%; */
     transform: translate(50%, 50%);
     bottom: 50%;
     background: url("../img/footer_list_style.svg") no-repeat center center/contain;
+}
+
+@media screen and (max-width: 767px) {
+    html{
+        font-size: 0.8508vw;
+    }
+
+    .pc_only{
+        display: none;
+    }
+    
+    .sp_only{
+        display: block;
+    }
+
+    header .wrap{
+        width: 100%;
+    }
+
+    header .wrap .header_logo{
+        margin-left: 3rem;
+    }
+
+    #nav{
+        padding: 0;
+        position: fixed;
+        width: 100%;
+        height: calc(100vh - 16.5rem);
+        right: -100%;
+        top: 18rem;
+        background: white;
+        transition: all .7s ease-in-out;
+        z-index: 1;
+        opacity: 0;
+        overflow-y: scroll;
+        line-height: 1.2;
+    }
+
+    #nav .nav_wrap{
+        width: 85%;
+        margin: auto;
+        margin-top: 22rem;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    }
+
+    #nav .nav_wrap ul{
+        flex-direction: column;
+    }
+
+    header .wrap nav ul img{
+        height: 15rem;
+        margin-bottom: 17rem;
+    }
+
+    #nav .nav_wrap .sns{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 11rem;
+    }
+
+    #nav .nav_wrap .sns img{
+        margin: 0 5rem;
+        width: 10rem;
+    }
+
+    #nav .nav_wrap > a{
+        font-size: 6.5rem;
+        color: #3F3F3F;
+        margin-bottom: 13rem;
+    }
+
+    #nav .nav_wrap > a img{
+        width: 6.5rem;
+        margin-right: 2rem;
+    }
+
+    #nav .nav_wrap .app_list{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin-bottom: 6rem;
+    }
+
+    #nav .nav_wrap .app_list a{
+        width: 48%;
+    }
+
+    #nav .nav_wrap .app_list img{
+        width: 100%;
+    }
+
+    #nav .nav_wrap > p{
+        position: relative;
+        font-size: 4.4rem;
+    }
+
+    #nav .nav_wrap > p::before{
+        position: absolute;
+        content: "";
+        height: 3px;
+        background: #C40018;
+        opacity: .5;
+        width: 100%;
+        bottom: .1rem;
+        z-index: 10;
+    }
+
+    #hamburger {
+        width: 18rem;
+        height: 18rem;
+        transition: all 1s ease-out;
+        background: #C40018;
+        position: relative;
+        z-index: 1;
+    }
+
+    .inner_line {
+        display: block;
+        position: absolute;
+        right: 50%;
+        margin-right: -50%;
+        transform: translate(-50%, 50%);
+        bottom: 50%;
+        width: 50%;
+        height: 3px;
+        background-color: white;
+        transition: all 1s ease-out;
+    }
+
+    #line1 {
+        top: 30%;
+    }
+
+    #line2 {
+        top: 47%;
+    }
+
+    #line3 {
+        bottom: 30%;
+    }
+
+    .in{
+        transform: translateX(-100%);
+        opacity: 1 !important;
+    }
+
+    .line_1,.line_2,.line_3{
+        background: white;
+        z-index: 100;
+    }
+
+    .line_1 {
+        transform: translate(-4rem, 3.1rem) rotate(-45deg);
+        top: 0;
+    }
+
+    .line_2 {
+        opacity: 0;
+    }
+    
+    .line_3 {
+        transform: translate(-4rem, -3.1rem) rotate(45deg);
+        bottom: 0;
+    }
 }

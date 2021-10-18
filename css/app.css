@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+#app{
+    width: 85%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+#app h2{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 7.5rem;
+    margin-bottom: 8rem;
+}
+
+#app > p{
+    margin-bottom: 7.5rem;
+}
+
+#app .point{
+    background: url("../img/point_bg.svg") no-repeat center center/contain;
+    padding: 10rem 10rem 5rem;
+    margin-bottom: 100px;
+    margin-bottom: 11rem;
+}
+
+#app .point p{
+    font-size: 4.6rem;
+    color: #C40018;
+    line-height: 200%;
+}
+
+#app .download{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 27rem;
+}
+
+#app .download > p{
+    font-size: 4.6rem;
+    color: #3F3F3F;
+    margin-bottom: 3.5rem;
+}
+
+#app .download > img{
+    height: 17rem;
+    margin-bottom: 3.5rem;
+}
+
+#app .download div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#app .download div a{
+    width: 45%;
+}
+
+#app .download div a img{
+    width: 100%;
+}
+
+#app .other_menu{
+    border: 1px dashed #707070;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10rem;
+    position: relative;
+    color: #3F3F3F;
+    margin-bottom: 24.5rem;
+}
+
+#app .other_menu::before{
+    position: absolute;
+    content: "";
+    height: 31rem;
+    width: 31rem;
+    background: url("../img/symbol.svg") no-repeat center center/contain;
+    opacity: .1;
+    right: 68%;
+    margin-right: -50%;
+    transform: translate(50%, 50%);
+    bottom: 50%;
+}
+
+#app .other_menu::after{
+    position: absolute;
+    content: "ホルモンアプリ";
+    color: #3F3F3F;
+    font-size: 150px;
+    width: fit-content;
+    opacity: .1;
+    font-family: ta-f1blockline, sans-serif;
+    right: 50%;
+    margin-right: -3%;
+    transform: translate(50%, -50%);
+    top: -4rem;
+    z-index: -1;
+}
+
+#app .other_menu h3{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 7.5rem;
+    position: absolute;
+    top: -7rem;
+    left: 10rem;
+}
+
+#app .other_menu > div{
+    background: white;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7rem 0 0;
+}
+
+#app .other_menu > div > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 72%;
+    margin: 1rem 0;
+}
+
+#app .other_menu > div > div > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#app .other_menu p{
+    font-size: 3.5rem;
+    width: 80%;
+}
+
+#app .other_menu div .block_line{
+    font-size: 4.6rem;
+    width: auto;
+    border: 5px solid #3F3F3F;
+    margin-right: 5rem;
+}
+
+#app .other_menu .caution{
+    font-size: 2.1rem;
+    margin-top: 7rem;
+    margin-left: 12rem;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}

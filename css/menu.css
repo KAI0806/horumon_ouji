@@ -1,0 +1,160 @@
+@charset "UTF-8";
+
+#menu{
+    width: 85%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 10rem;
+}
+
+#menu h2{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 7.5rem;
+    margin-bottom: 8rem;
+}
+
+#menu > p{
+    margin-bottom: 7.5rem;
+}
+
+#menu .menu_list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 35rem;
+    position: relative;
+}
+
+#menu .menu_list::before{
+    position: absolute;
+    content: "ホルモン王子";
+    font-size: 29rem;
+    font-family: ta-f1blockline, sans-serif;
+    color: white;
+    width: max-content;
+    transform: rotateZ(-30deg);
+    top: 55%;
+    z-index: -1;
+}
+
+#menu .menu_list div{
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu .menu_list div img{
+    height: 64rem;
+    transform: translateX(-5rem);
+}
+
+#menu .menu_list div .last{
+    transform: translateX(-1.5rem)
+}
+
+#menu .menu_list div h3{
+    font-size: 4.6rem;
+    color: #3F3F3F;
+    margin-top: 3rem;
+    margin-bottom: 1.8rem;
+}
+
+#menu .menu_list div p{
+    width: 90%;
+}
+
+#menu .menu_list div:nth-child(3){
+    margin-top: 9rem;
+}
+
+#menu .menu_list div:nth-child(4){
+    margin-top: 9rem;
+}
+
+#menu .menu_list div:nth-child(even){
+    transform: translateY(20rem);
+}
+
+#menu .other_menu{
+    border: 1px dashed #707070;
+    width: 100%;
+    padding: 1rem;
+    border-radius: 10rem;
+    position: relative;
+    color: #3F3F3F;
+    margin-bottom: 6rem;
+}
+
+#menu .other_menu::before{
+    position: absolute;
+    content: "";
+    height: 31rem;
+    width: 31rem;
+    background: url("../img/symbol.svg") no-repeat center center/contain;
+    opacity: .1;
+    right: 68%;
+    margin-right: -50%;
+    transform: translate(50%, 50%);
+    bottom: 50%;
+}
+
+#menu .other_menu h3{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 7.5rem;
+    position: absolute;
+    top: -7rem;
+    left: 10rem;
+}
+
+#menu .other_menu > div{
+    background: white;
+    border-radius: 10rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 7rem 0;
+}
+
+#menu .other_menu > div > div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 65%;
+    margin: 1rem 0;
+}
+
+#menu .other_menu > div > div > div{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#menu .other_menu p{
+    font-size: 3.5rem;
+    width: 20%;
+}
+
+#menu .other_menu div .block_line{
+    font-size: 4.6rem;
+    width: 80%;
+}
+
+#menu .caution{
+    width: 100%;
+    margin-bottom: 26rem;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+#menu .caution p{
+    font-size: 2.5rem;
+    line-height: 200%;
+}

@@ -13,16 +13,47 @@
         <div class="wrap">
             <a href="index.html"><img class="header_logo" src="img/head_logo.svg" alt="ホルンモン王子"></a>
 
-            <nav>
+            <nav class="pc_only">
                 <ul>
-                    <li><a href=""><img src="img/nav_about.svg" alt="ホルモン王子について"></a></li>
-                    <li><a href=""><img src="img/nav_menu.svg" alt="メニュー"></a></li>
-                    <li><a href=""><img src="img/nav_app.svg" alt="アプリ"></a></li>
-                    <li><a href=""><img src="img/nav_contact.svg" alt="お問合せ"></a></li>
+                    <li><a href="about.html"><img src="img/nav_about.svg" alt="ホルモン王子について"></a></li>
+                    <li><a href="menu.html"><img src="img/nav_menu.svg" alt="メニュー"></a></li>
+                    <li><a href="app.html"><img src="img/nav_app.svg" alt="アプリ"></a></li>
+                    <li><a href="contact.html"><img src="img/nav_contact.svg" alt="お問合せ"></a></li>
                 </ul>
             </nav>
+
+            <nav id="nav" class="sp_only">
+                <div class="nav_wrap">
+                    <ul>
+                        <li><a href="about.html"><img src="img/nav_about.svg" alt="ホルモン王子について"></a></li>
+                        <li><a href="menu.html"><img src="img/nav_menu.svg" alt="メニュー"></a></li>
+                        <li><a href="app.html"><img src="img/nav_app.svg" alt="アプリ"></a></li>
+                        <li><a href="contact.html"><img src="img/nav_contact.svg" alt="お問合せ"></a></li>
+                    </ul>
+
+                    <div class="sns">
+                        <a href=""><img src="img/instagram.svg" alt=""></a>
+                        <a href=""><img src="img/twitter.svg" alt=""></a>
+                    </div>
+
+                    <a href=""><img src="img/phone_black.svg" alt="">000-000-000</a>
+
+                    <div class="app_list">
+                        <a href=""><img src="img/apple_store.png" alt=""></a>
+                        <a href=""><img src="img/google_play.png" alt=""></a>
+                    </div>
+
+                    <p>ホルモン王子アプリはこちらから</p>
+                </div>
+            </nav>
+            <div id="hamburger" class="sp_only">
+                <span class="inner_line" id="line1"></span>
+                <span class="inner_line" id="line2"></span>
+                <span class="inner_line" id="line3"></span>
+            </div>
         </div>
     </header>
+
     <main>
         <section id="kv">
             <p class="main_txt">ALCOHOL COMMUNICATION CENTER</p>
@@ -127,9 +158,14 @@
             <a href=""><img src="img/instagram.svg" alt=""></a>
             <a href=""><img src="img/twitter.svg" alt=""></a>
         </div>
-        <a href=""><img src="img/phone.svg" alt="">000-0000-0000</a>
+        <a href="tel:"><img src="img/phone.svg" alt="">000-0000-0000</a>
     </div>
+
     <footer>
+
+        <div class="footer_recruit">
+            <a class="block_line" href="">＼求人モトム！！／</a>
+        </div>
         <div class="wrap">
             <div class="left">
                 <a href="index.html"><img class="footer_logo" src="img/footer_logo.svg" alt=""></a>
@@ -147,13 +183,15 @@
             </div>
 
             <div class="right">
-                <a href="">ホルモン王子について</a>
-                <a href="">メニュー</a>
-                <a href="">アプリ</a>
-                <a href="">お問合せ</a>
+                <a href="about.html">ホルモン王子について</a>
+                <a href="menu.html">メニュー</a>
+                <a href="app.html">アプリ</a>
+                <a href="contact.html">お問合せ</a>
             </div>
         </div>
         <p>Copylight &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> horumon_ouji</p>
     </footer>
+
+    <script src="js/menu.js"></script>
 </body>
 </html>

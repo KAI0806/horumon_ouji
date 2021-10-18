@@ -1,0 +1,148 @@
+@charset "UTF-8";
+
+#message{
+    width: 85%;
+    max-width: 1440px;
+    margin: auto;
+    margin-top: 16rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 86rem;
+}
+
+#message .message_txt{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 10rem;
+}
+
+#message .message_txt h3{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 7.2rem;
+}
+
+#message .message_txt p{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 4rem;
+    letter-spacing: 1rem;
+}
+
+#message .cap_img{
+    background: url("../img/cap_img.jpg") no-repeat center center/cover;
+    width: 85%;
+    height: 89rem;
+    position: relative;
+}
+
+#message .cap_img h3{
+    position: absolute;
+    font-size: 64px;
+    line-height:200%;
+    color: #3F3F3F;
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    bottom: -30rem;
+    right: 1rem;
+    font-family: ta-fuga-fude, sans-serif;
+}
+
+#message .cap_img p{
+    position: absolute;
+    background: #C40018;
+    font-size: 3.8rem;
+    color: white;
+    padding: 10rem;
+    bottom: -60rem;
+    left: -15rem;
+}
+
+#message .cap_img p::before{
+    position: absolute;
+    content: "";
+    height: 12rem;
+    width: 12rem;
+    top: -2rem;
+    left: -2rem;
+    background: url("../img/triangle_top.svg") no-repeat center center/contain;
+}
+
+#message .cap_img p::after{
+    position: absolute;
+    content: "";
+    height: 12rem;
+    width: 12rem;
+    bottom: -2rem;
+    right: -2rem;
+    background: url("../img/triangle_bottom.svg") no-repeat center center/contain;
+}
+
+#company{
+    width: 85%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 20.5rem;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+#company > img{
+    width: 52%;
+}
+
+#company div{
+    width: 45%;
+    position: relative;
+}
+
+#company div::before{
+    position: absolute;
+    content: "";
+    height: 18rem;
+    width: 18rem;
+    right: 10rem;
+    top: 10rem;
+    background: url("../img/symbol.svg") no-repeat center center/contain;
+}
+
+#company div h3{
+    font-size: 5.5rem;
+    color: #C40018;
+    line-height: 100%;
+}
+
+#company div h4{
+    font-size: 4.6rem;
+    margin: 5.5rem 0 3rem;
+    color: #C40018;
+    line-height: 100%;
+}
+
+#company div p{
+    font-size: 40px;
+    color: #3F3F3F;
+}
+
+#company div a{
+    color: #3F3F3F;
+}
+
+#map{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#map iframe{
+    width: 85%;
+    height: 80rem;
+    max-width: 1440px;
+    margin: auto;
+    margin-bottom: 33.5rem;
+}
