@@ -1,0 +1,185 @@
+@charset "UTF-8";
+
+#kv{
+    background: url("../img/kv_pc.jpg") no-repeat center center/cover;
+    height: 80.1rem;
+    width: 92.86%;
+    position: relative;
+}
+
+#kv p{
+    transform: rotateZ(90deg);
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    position: absolute;
+    left: -18rem;
+    bottom: 45%;
+    color: #3F3F3F;
+}
+
+#message{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0 12rem;
+    position: relative;
+}
+
+#message .message_txt{
+    height: 83rem;
+}
+
+#message p{
+    width: 41%;
+    margin: 5.6rem 0 12rem;
+}
+
+.message_bottom{
+    width: 55.8rem;
+}
+
+#message::before{
+    position: absolute;
+    content: "";
+    left: 0;
+    margin-right: 0;
+    transform: translate(0, 50%);
+    bottom: 35rem;
+    height: 85rem;
+    width: 90%;
+    background: url("../img/message_bg.svg") no-repeat center center/contain;
+    z-index: -1;
+}
+
+#feature{
+    background: #418D43;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5rem 0;
+    flex-direction: column;
+}
+
+#feature > img{
+    height: 11.7rem;
+    margin-bottom: 3.7rem;
+}
+
+#feature .wrap{
+    width: 85%;
+    max-width: 1440px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    margin-bottom: 50px;
+}
+
+#feature .wrap div{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#feature .wrap div img{
+    height: 10.5rem;
+    margin-bottom: 4rem;
+}
+
+#feature a{
+    color: white;
+    border: 1px solid #707070;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+    border-radius: 10rem;
+    width: 52.5rem;
+    padding: 3.5rem 0;
+}
+
+#menu{
+    display: flex;
+    padding-top: 17.5rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 85%;
+    max-width: 1440px;
+    margin: auto;
+    position: relative;
+    margin-bottom: 33rem;
+}
+
+#menu h2{
+    -ms-writing-mode: tb-rl;
+    writing-mode: vertical-rl;
+    font-size: 7.5rem;
+    margin-bottom: 6rem;
+}
+
+#menu > img{
+    width: 100%;
+    margin-bottom: 18.5rem;
+}
+
+#menu .menu_kv_txt{
+    position: absolute;
+    color: #C40018;
+    font-size: 40px;
+    top: 72rem;
+    left: 2rem;
+    width: fit-content;line-height: 150%;
+    text-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+}
+
+#menu > p{
+    width: 41%;
+}
+
+#menu .menu_list{
+    margin-top: 12rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+    margin-bottom: 6rem;
+}
+
+#menu .menu_list div{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu .menu_list img{
+    width: 49rem;
+}
+
+#menu .menu_list h3{
+    font-size: 4rem;
+    margin-top: 4rem;
+    margin-bottom: 2.5rem;
+}
+
+#menu .menu_list p{
+    font-size: 3rem;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+#menu .menu_list p+p{
+    margin-top: 2rem;
+}
+
+#menu > a{
+    color: white;
+    background: #418D43;
+    border: 1px solid #707070;
+    text-align: center;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
+    border-radius: 10rem;
+    width: 52.5rem;
+    padding: 3.5rem 0;
+}

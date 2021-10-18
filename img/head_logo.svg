@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="240" height="100" viewBox="0 0 240 100">
+  <g id="グループ_20" data-name="グループ 20" transform="translate(-74 -51)">
+    <g id="グループ_1" data-name="グループ 1" transform="translate(36 -150)" opacity="0.1">
+      <text id="ホ" transform="translate(106 285)" fill="#c40018" font-size="98" font-family="MS-PGothic, MS PGothic"><tspan x="0" y="0">ホ</tspan></text>
+      <g id="楕円形_1" data-name="楕円形 1" transform="translate(104 206)" fill="none" stroke="#c40018" stroke-width="8">
+        <circle cx="47.5" cy="47.5" r="47.5" stroke="none"/>
+        <circle cx="47.5" cy="47.5" r="43.5" fill="none"/>
+      </g>
+    </g>
+    <text id="ホルモン王子" transform="translate(74 135)" fill="#c40018" font-size="40" font-family="TA_fuga_fude"><tspan x="0" y="0">ホルモン王子</tspan></text>
+    <text id="大学生起業家の酒場" transform="translate(86 87)" fill="#3f3f3f" font-size="24" font-family="TA_fuga_fude"><tspan x="0" y="0">大学生起業家の酒場</tspan></text>
+  </g>
+</svg>
