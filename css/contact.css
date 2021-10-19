@@ -40,12 +40,26 @@
     margin-bottom: 50px;
 }
 
+#form .row > div{
+    width: 51%;
+}
+
+#form .row > div:first-child{
+    display: flex;
+    width: 40%;
+    justify-content: space-between;
+}
+
+#form .row > div input{
+    width: calc(100% - 1rem);
+}
+
 #form p{
     color: #C40018;
 }
 
 label{
-    width: 20%;
+    width: 45%;
 }
 
 input, textarea{
@@ -74,4 +88,68 @@ textarea{
     border: 1px solid #3F3F3F;
     padding: 3rem 10rem;
     font-weight: 600;
+    color: #3F3F3F;
+}
+
+@media screen and (max-width: 767px){
+    #contact{
+        width: 75%;
+    }
+
+    #contact h2{
+        font-size: 10rem;
+        letter-spacing: 1rem;
+        margin-bottom: 15rem;
+    }
+
+    #contact > p{
+        margin-bottom: 17rem;
+    }
+
+    label{
+        width: unset;
+        font-size: 5rem;
+        margin-bottom: 2.5rem;
+    }
+
+    #form{
+        padding: 10rem 9rem;
+        width: 74%;
+        margin-bottom: 27.5rem;
+    }
+
+    #form .row{
+        flex-direction: column;
+        margin-bottom: 4rem;
+    }
+
+    #form .row > div:first-child{
+        justify-content: flex-start;
+        width: 100%;
+    }
+
+    #form .row p{
+        margin-left: 5rem;
+        font-size: 5rem;
+    }
+
+    input{
+        width: 100%;
+    }
+
+    textarea{
+        width: calc(100% - 1rem);
+        height: calc(60rem - 1rem);
+    }
+
+    #form .row > div{
+        width: 100%;
+    }
+
+    .button_wrap button{
+        font-size: 5rem;
+        padding: 6rem 20rem;
+        margin-top: 7rem;
+        border-radius: 3rem;
+    }
 }

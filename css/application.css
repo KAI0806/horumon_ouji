@@ -118,6 +118,7 @@ header .wrap nav ul img:hover{
 main{
     padding-top: 18rem;
     overflow-x: hidden;
+    color: #3F3F3F;
 }
 
 
@@ -324,6 +325,7 @@ footer .wrap .right a::before{
 
     header .wrap .header_logo{
         margin-left: 3rem;
+        height: 14.5rem;
     }
 
     #nav{
@@ -539,5 +541,9 @@ footer .wrap .right a::before{
 
     footer .wrap .right a{
         font-size: 3.8rem;
+    }
+
+    footer > p{
+        transform: translateX(8rem);
     }
 }

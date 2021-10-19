@@ -25,7 +25,6 @@
 #app .point{
     background: url("../img/point_bg.svg") no-repeat center center/contain;
     padding: 10rem 10rem 5rem;
-    margin-bottom: 100px;
     margin-bottom: 11rem;
 }
 
@@ -77,6 +76,7 @@
     position: relative;
     color: #3F3F3F;
     margin-bottom: 24.5rem;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 }
 
 #app .other_menu::before{
@@ -157,4 +157,83 @@
     margin-top: 7rem;
     margin-left: 12rem;
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+@media screen and (max-width: 767px){
+    #app{
+        width: 75%;
+    }
+
+    #app h2{
+        font-size: 8rem;
+        letter-spacing: 1rem;
+        margin-bottom: 13.5rem;
+    }
+    #app .other_menu::after{
+        display: none;
+    }
+
+    #app .point{
+        padding: 15rem 10rem 8rem;
+        margin-bottom: 15rem;
+    }
+
+    #app .point p {
+        font-size: 7.5rem;
+    }
+
+    #app .download{
+        margin-bottom: 20rem;
+    }
+
+    #app .download > p{
+        font-size: 6.3rem;
+        margin-bottom: 5.5rem;
+    }
+
+    #app .download > img{
+        height: unset;
+        width: 100%;
+        margin-bottom: 15rem;
+    }
+
+    #app .other_menu{
+        width: 107%;
+        transform: translateX(-5%);
+        margin-bottom: 34rem;
+    }
+
+    #app .other_menu h3{
+        font-size: 6rem;
+        left: 3rem;
+    }
+
+    #app .other_menu > div > div{
+        justify-content: space-between;
+        width: 85%;
+    }
+
+    #app .other_menu div .block_line{
+        font-size: 6.8rem;
+        border: 3px solid #3F3F3F;
+        width: max-content;
+    }
+
+    #app .other_menu p{
+        font-size: 3.8rem;
+        width: 66%;
+    }
+
+    #app .other_menu .caution{
+        width: 100%;
+        font-size: 3.2rem;
+        margin: 7rem 0;
+        margin-left: 10rem;
+    }
+
+    #app .other_menu::before{
+        bottom: 0;
+        right: 62%;
+        z-index: -1;
+    }
 }

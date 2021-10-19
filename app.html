@@ -13,7 +13,7 @@
         <div class="wrap">
             <a href="index.html"><img class="header_logo" src="img/head_logo.svg" alt="ホルンモン王子"></a>
 
-            <nav>
+            <nav class="pc_only">
                 <ul>
                     <li><a href="about.html"><img src="img/nav_about.svg" alt="ホルモン王子について"></a></li>
                     <li><a href="menu.html"><img src="img/nav_menu.svg" alt="メニュー"></a></li>
@@ -21,12 +21,42 @@
                     <li><a href="contact.html"><img src="img/nav_contact.svg" alt="お問合せ"></a></li>
                 </ul>
             </nav>
+
+            <nav id="nav" class="sp_only">
+                <div class="nav_wrap">
+                    <ul>
+                        <li><a href="about.html"><img src="img/nav_about.svg" alt="ホルモン王子について"></a></li>
+                        <li><a href="menu.html"><img src="img/nav_menu.svg" alt="メニュー"></a></li>
+                        <li><a href="app.html"><img src="img/nav_app.svg" alt="アプリ"></a></li>
+                        <li><a href="contact.html"><img src="img/nav_contact.svg" alt="お問合せ"></a></li>
+                    </ul>
+
+                    <div class="sns">
+                        <a href="https://www.instagram.com/horumon.ouji/" target="_blank" rel="noopener noreferrer"><img src="img/instagram.svg" alt="instagram"></a>
+                        <a href="" target="_blank" rel="noopener noreferrer"><img src="img/twitter.svg" alt="twitter"></a>
+                    </div>
+
+                    <a href=""><img src="img/phone_black.svg" alt="phone">000-000-000</a>
+
+                    <div class="app_list">
+                        <a href="" target="_blank" rel="noopener noreferrer"><img src="img/apple_store.png" alt="apple_store"></a>
+                        <a href="" target="_blank" rel="noopener noreferrer"><img src="img/google_play.png" alt="google_play"></a>
+                    </div>
+
+                    <p>ホルモン王子アプリはこちらから</p>
+                </div>
+            </nav>
+            <div id="hamburger" class="sp_only">
+                <span class="inner_line" id="line1"></span>
+                <span class="inner_line" id="line2"></span>
+                <span class="inner_line" id="line3"></span>
+            </div>
         </div>
     </header>
 
     <main>
         <section id="kv">
-            <p class="main_txt">ALCOHOL COMMUNICATION CENTER</p>
+            <p class="main_txt pc_only">ALCOHOL COMMUNICATION CENTER</p>
         </section>
 
         <section id="app">
@@ -70,27 +100,32 @@
 
     <div class="side_menu">
         <div>
-            <a href=""><img src="img/instagram.svg" alt=""></a>
-            <a href=""><img src="img/twitter.svg" alt=""></a>
+            <a href="https://www.instagram.com/horumon.ouji/" target="_blank" rel="noopener noreferrer"><img src="img/instagram.svg" alt="instagram"></a>
+            <a href="" target="_blank" rel="noopener noreferrer"><img src="img/twitter.svg" alt="twitter"></a>
         </div>
-        <a href="tel:"><img src="img/phone.svg" alt="">000-0000-0000</a>
+        <a href="tel:"><img src="img/phone.svg" alt="phone">000-0000-0000</a>
     </div>
 
     <footer>
-
         <div class="footer_recruit">
-            <a class="block_line" href="">＼求人モトム！！／</a>
+            <a class="block_line" href="contact.html">＼求人モトム！！／</a>
         </div>
         <div class="wrap">
             <div class="left">
-                <a href="index.html"><img class="footer_logo" src="img/footer_logo.svg" alt=""></a>
-                <div>
-                    <a href=""><img src="img/footer_instagram.svg" alt=""></a>
-                    <a href=""><img src="img/footer_twitter.svg" alt=""></a>
+                <a href="index.html"><img class="footer_logo" src="img/footer_logo.svg" alt="ホルンモン王子"></a>
+                <div class="pc_flex">
+                    <a href="https://www.instagram.com/horumon.ouji/" target="_blank" rel="noopener noreferrer"><img src="img/footer_instagram.svg" alt="instagram"></a>
+                    <a href="" target="_blank" rel="noopener noreferrer"><img src="img/footer_twitter.svg" alt="twitter"></a>
+                </div>
+
+                <div class="sp_only">
+                    <p>〒 215-0021</p>
+                    <p>神奈川県川崎市麻生区麻生5-38-9</p>
+                    <p>営業時間 00:00～00:00</p>
                 </div>
             </div>
 
-            <div class="center">
+            <div class="center pc_only">
                 <p>TEL:<a href="tel:000-0000-0000">000-0000-0000</a></p>
                 <p>〒 215-0021</p>
                 <p>神奈川県川崎市麻生区麻生5-38-9</p>
@@ -100,11 +135,13 @@
             <div class="right">
                 <a href="about.html">ホルモン王子について</a>
                 <a href="menu.html">メニュー</a>
-                <a href="app">アプリ</a>
+                <a href="app.html">アプリ</a>
                 <a href="contact.html">お問合せ</a>
             </div>
         </div>
         <p>Copylight &copy; <script type="text/javascript">document.write(new Date().getFullYear());</script> horumon_ouji</p>
     </footer>
+
+    <script src="js/menu.js"></script>
 </body>
 </html>
