@@ -96,7 +96,7 @@
     position: absolute;
     content: "ホルモンアプリ";
     color: #3F3F3F;
-    font-size: 150px;
+    font-size: 17.4rem;
     width: fit-content;
     opacity: .1;
     font-family: ta-f1blockline, sans-serif;
@@ -130,8 +130,9 @@
     display: flex;
     justify-content: flex-start;
     align-items: center;
-    width: 72%;
+    width: 80%;
     margin: 1rem 0;
+    transform: translateX(5rem);
 }
 
 #app .other_menu > div > div > div{

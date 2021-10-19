@@ -56,7 +56,7 @@
     display: flex;
     justify-content: space-between;
     align-items: flex-start;
-    margin-bottom: 50px;
+    margin-bottom: 5.7rem;
 }
 
 #feature .wrap div{
@@ -115,7 +115,7 @@
     position: absolute;
     color: #C40018;
     font-size: 4.65rem;
-    top: 72rem;
+    top: 66rem;
     left: 2rem;
     width: fit-content;
     line-height: 150%;
@@ -151,7 +151,7 @@
 }
 
 #menu .menu_list img{
-    width: 49rem;
+    width: 43rem;
 }
 
 #menu .menu_list h3{
@@ -161,7 +161,7 @@
 }
 
 #menu .menu_list p{
-    font-size: 3rem;
+    font-size: 2.7rem;
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 }
 
@@ -258,7 +258,7 @@
     }
 
     #menu .menu_kv_txt{
-        font-size: 24px;
+        font-size: 7.5rem;
         top: 20rem;
         left: 50%;
         transform: translate(-50%, 50%);
@@ -278,7 +278,7 @@
         width: 100%;
         justify-content: space-between;
         flex-direction: row;
-        margin-bottom: 25px;
+        margin-bottom: 8rem;
     }
 
     #menu .menu_list > div > div{
@@ -302,5 +302,12 @@
 
     #menu > a{
         width: 75%;
+    }
+}
+
+@media screen and (max-width: 320px){
+    #menu .menu_kv_txt{
+        font-size: 9.5rem;
+        top: 25rem;
     }
 }

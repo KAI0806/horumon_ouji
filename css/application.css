@@ -66,7 +66,7 @@ p{
 }
 
 header{
-    height: 18rem;
+    height: 17rem;
     background: #F5F0E3;
     display: flex;
     justify-content: center;
@@ -116,7 +116,7 @@ header .wrap nav ul img:hover{
 }
 
 main{
-    padding-top: 18rem;
+    padding-top: 17rem;
     overflow-x: hidden;
     color: #3F3F3F;
 }
@@ -141,7 +141,7 @@ main{
 
 .side_menu{
     position: fixed;
-    top: 18rem;
+    top: 17rem;
     right: 0;
     width: 7.14%;
     display: flex;
@@ -247,7 +247,7 @@ footer .wrap a:hover{
     transition: all .3s ease-in-out;
 }
 
-footer .wrap .left div{
+footer .wrap .left .pc_flex{
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -255,6 +255,10 @@ footer .wrap .left div{
 
 footer .wrap .left{
     width: 15%;
+}
+
+footer .wrap .left .pc_flex a img{
+    width: 5.5rem;
 }
 
 footer .wrap .center{
@@ -545,5 +549,23 @@ footer .wrap .right a::before{
 
     footer > p{
         transform: translateX(8rem);
+    }
+}
+
+@media screen and (max-width: 320px){
+    html{
+        font-size: 0.6808vw;
+    }
+
+    footer{
+        width: 90%;
+    }
+
+    footer .wrap .left {
+        width: 56%;
+    }
+
+    footer .wrap .right{
+        width: 37%;
     }
 }
