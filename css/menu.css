@@ -43,8 +43,15 @@
     z-index: -1;
 }
 
-#menu .menu_list div{
+#menu .menu_list > div{
     width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu .menu_list > div > div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -79,7 +86,7 @@
     margin-top: 9rem;
 }
 
-#menu .menu_list div:nth-child(even){
+#menu .menu_list > div:nth-child(even){
     transform: translateY(20rem);
 }
 
@@ -123,6 +130,8 @@
     align-items: center;
     flex-direction: column;
     padding: 7rem 0;
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    font-weight: 600;
 }
 
 #menu .other_menu > div > div{
@@ -147,6 +156,7 @@
 #menu .other_menu div .block_line{
     font-size: 4.6rem;
     width: 80%;
+    font-weight: 100;
 }
 
 #menu .caution{
@@ -157,4 +167,111 @@
 #menu .caution p{
     font-size: 2.5rem;
     line-height: 200%;
+}
+
+@media screen and (max-width: 767px){
+    #menu{
+        width: 100%;
+    }
+
+    #menu h2{
+        font-size: 11rem;
+    }
+
+    #menu > p{
+        width: 75%;
+    }
+
+    #menu .menu_list::before{
+        font-size: 24rem;
+    }
+
+    #menu .menu_list{
+        flex-direction: column;
+        margin-bottom: 19rem;
+    }
+
+    #menu .menu_list > div{
+        flex-direction: row;
+        width: 75%;
+        margin-bottom: 36px;
+        justify-content: space-between;
+    }
+
+    #menu .menu_list div img{
+        height: unset;
+        width: 45%;
+    }
+
+    #menu .menu_list > div > div{
+        align-items: flex-start;
+        width: 53%;
+    }
+
+    #menu .menu_list > div:nth-child(even){
+        transform: unset;
+        flex-direction: row-reverse;
+    }
+
+    #menu .menu_list div p{
+        width: 100%;
+        font-size: 3.8rem;
+    }
+
+    #menu .menu_list div:nth-child(3){
+        margin-top: unset;
+    }
+
+    #menu .menu_list div:nth-child(4){
+        margin-top: unset;
+        margin-bottom: 0;
+    }
+
+    #menu .menu_list div h3{
+        font-size: 6.4rem;
+        margin-top: 0;
+        margin-bottom: 6rem;
+    }
+
+    #menu .other_menu{
+        width: 80%;
+        transform: translateX(-5%);
+        margin-bottom: 14rem;
+    }
+
+    #menu .other_menu h3{
+        font-size: 6rem;
+        left: 3rem;
+    }
+
+    #menu .other_menu p{
+        font-size: 3.8rem;
+        width: 25%;
+    }
+
+    #menu .other_menu div .block_line{
+        font-size: 3.8rem;
+        width: 70%;
+    }
+
+    #menu .other_menu > div > div{
+        width: 75%;
+        justify-content: space-between;
+    }
+
+    #menu .other_menu > div{
+        padding: 4rem 0;
+    }
+
+    #menu .other_menu::before{
+        bottom: 0;
+        right: 62%;
+        z-index: -1;
+    }
+
+    #menu .caution{
+        width: 75%;
+        margin-bottom: 29rem;
+    }
+    
 }

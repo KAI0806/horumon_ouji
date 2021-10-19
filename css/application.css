@@ -117,6 +117,7 @@ header .wrap nav ul img:hover{
 
 main{
     padding-top: 18rem;
+    overflow-x: hidden;
 }
 
 
