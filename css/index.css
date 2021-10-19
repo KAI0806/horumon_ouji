@@ -41,6 +41,7 @@
     align-items: center;
     padding: 5rem 0;
     flex-direction: column;
+    color: white;
 }
 
 #feature > img{
@@ -113,7 +114,7 @@
 #menu .menu_kv_txt{
     position: absolute;
     color: #C40018;
-    font-size: 40px;
+    font-size: 4.65rem;
     top: 72rem;
     left: 2rem;
     width: fit-content;
@@ -134,8 +135,15 @@
     margin-bottom: 6rem;
 }
 
-#menu .menu_list div{
+#menu .menu_list > div{
     width: 30%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#menu .menu_list > div > div{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -174,4 +182,125 @@
 
 #menu > a:hover{
     box-shadow: inset 0 3px 6px rgba(0, 0, 0, 16%);
+}
+
+@media screen and (max-width: 767px){
+    .side_txt{
+        position: fixed;
+        left: 1rem;
+        font-size: 4.4rem;
+        top: 140rem;
+        font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+        -ms-writing-mode: tb-rl;
+        writing-mode: vertical-rl;
+    }
+
+    #message{
+        width: 75%;
+        margin: auto;
+    }
+
+    #message .message_txt{
+        height: unset;
+        width: 130%;
+    }
+
+    #message p{
+        width: 100%;
+    }
+
+    #message::before{
+        background: url("../img/message_bg_sp.svg") no-repeat center center/contain;
+        width: 119rem;
+        left: 50%;
+        transform: translate(-50%, 50%);
+    }
+
+    #feature > img{
+        height: unset;
+        width: 85%;
+        margin-bottom: 9.5rem;
+    }
+
+    #feature{
+        padding: 9.5rem 0;
+    }
+
+    #feature .wrap{
+        width: 75%;
+        flex-direction: column;
+        margin-bottom: 0;
+    }
+
+    #feature .wrap div{
+        width: 100%;
+        align-items: flex-start;
+        margin-bottom: 9rem;
+    }
+    
+    #feature .wrap div img{
+        height: 7.5rem;
+    }
+
+    #feature a{
+        width: 75%;
+        font-size: 5rem;
+    }
+
+    #menu{
+        padding-top: 0;
+        width: 100%;
+    }
+
+    #menu .menu_list{
+        flex-direction: column;
+        width: 75%;
+    }
+
+    #menu .menu_kv_txt{
+        font-size: 24px;
+        top: 20rem;
+        left: 50%;
+        transform: translate(-50%, 50%);
+        width: fit-content;
+        line-height: 150%;
+    }
+
+    #menu h2{
+        font-size: 11rem;
+    }
+
+    #menu > p{
+        width: 75%;
+    }
+
+    #menu .menu_list > div{
+        width: 100%;
+        justify-content: space-between;
+        flex-direction: row;
+        margin-bottom: 25px;
+    }
+
+    #menu .menu_list > div > div{
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    }
+
+    #menu .menu_list img{
+        width: 42rem;
+    }
+
+    #menu .menu_list h3{
+        font-size: 4.4rem;
+        margin-top: 0
+    }
+
+    #menu .menu_list p{
+        font-size: 3.7rem;
+    }
+
+    #menu > a{
+        width: 75%;
+    }
 }

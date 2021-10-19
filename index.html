@@ -56,7 +56,7 @@
 
     <main>
         <section id="kv">
-            <p class="main_txt">ALCOHOL COMMUNICATION CENTER</p>
+            <p class="main_txt pc_only">ALCOHOL COMMUNICATION CENTER</p>
         </section>
 
         <section id="message">
@@ -74,7 +74,8 @@
             <img src="img/feature_title.svg" alt="ホルモン王子で今日も">
             <div class="wrap">
                 <div>
-                    <img src="img/feature01.svg" alt="食べて">
+                    <img class="pc_only" src="img/feature01.svg" alt="食べて">
+                    <img class="sp_only" src="img/feature01_sp.svg" alt="食べて">
                     <p class="sub_txt">
                         テキストテキストテキストテキストテキスト
                         テキストテキストテキストテキストテキスト
@@ -83,7 +84,8 @@
                     </p>
                 </div>
                 <div>
-                    <img src="img/feature02.svg" alt="呑んで">
+                    <img class="pc_only" src="img/feature02.svg" alt="呑んで">
+                    <img class="sp_only" src="img/feature02_sp.svg" alt="呑んで">
                     <p class="sub_txt">
                         テキストテキストテキストテキストテキスト
                         テキストテキストテキストテキストテキスト
@@ -92,7 +94,8 @@
                     </p>
                 </div>
                 <div>
-                    <img src="img/feature03.svg" alt="ワイワイ">
+                    <img class="pc_only" src="img/feature03.svg" alt="ワイワイ">
+                    <img class="sp_only" src="img/feature03_sp.svg" alt="ワイワイ">
                     <p class="sub_txt">
                         テキストテキストテキストテキストテキスト
                         テキストテキストテキストテキストテキスト
@@ -108,7 +111,7 @@
             <img src="img/menu_kv.jpg" alt="">
             <p class="menu_kv_txt block_line">
                 みんなが集まれる場所。
-               <br/> 　　　　　　地元の愛され酒場。
+               <br/> 　　　　<span class="pc_inline">　　</span>地元の愛され酒場。
             </p>
             <h2 class="block_line">メニュー</h2>
             <p class="main_txt">
@@ -120,38 +123,46 @@
             <div class="menu_list">
                 <div>
                     <img src="img/message_img.png" alt="">
-                    <h3 class="block_line">テキスト</h3>
-                    <p>￥○○○○円（税込み○○○○円）</p>
-                    <p>
-                        メニュー詳細メニュー詳細
-                        <br/>メニュー詳細メニュー詳細
-                        <br/>メニュー詳細メニュー詳細
-                    </p>
+                    <div>
+                        <h3 class="block_line">テキスト</h3>
+                        <p>￥○○○○円<br class="sp_only"/>（税込み○○○○円）</p>
+                        <p>
+                            メニュー詳細メニュー詳細
+                            <br/>メニュー詳細メニュー詳細
+                            <br/>メニュー詳細メニュー詳細
+                        </p>
+                    </div>
                 </div>
                 <div>
                     <img src="img/message_img.png" alt="">
-                    <h3 class="block_line">テキスト</h3>
-                    <p>￥○○○○円（税込み○○○○円）</p>
-                    <p>
-                        メニュー詳細メニュー詳細
-                        <br/>メニュー詳細メニュー詳細
-                        <br/>メニュー詳細メニュー詳細
-                    </p>
+                    <div>
+                        <h3 class="block_line">テキスト</h3>
+                        <p>￥○○○○円<br class="sp_only"/>（税込み○○○○円）</p>
+                        <p>
+                            メニュー詳細メニュー詳細
+                            <br/>メニュー詳細メニュー詳細
+                            <br/>メニュー詳細メニュー詳細
+                        </p>
+                    </div>
                 </div>
                 <div>
                     <img src="img/message_img.png" alt="">
-                    <h3 class="block_line">テキスト</h3>
-                    <p>￥○○○○円（税込み○○○○円）</p>
-                    <p>
-                        メニュー詳細メニュー詳細
-                        <br/>メニュー詳細メニュー詳細
-                        <br/>メニュー詳細メニュー詳細
-                    </p>
+                    <div>
+                        <h3 class="block_line">テキスト</h3>
+                        <p>￥○○○○円<br class="sp_only"/>（税込み○○○○円）</p>
+                        <p>
+                            メニュー詳細メニュー詳細
+                            <br/>メニュー詳細メニュー詳細
+                            <br/>メニュー詳細メニュー詳細
+                        </p>
+                    </div>
                 </div>
             </div>
             <a class="sub_txt" href="">詳しく見る</a>
         </section>
     </main>
+
+    <p class="side_txt main_txt sp_only">ALCOHOL COMMUNICATION CENTER</p>
 
     <div class="side_menu">
         <div>
@@ -169,13 +180,19 @@
         <div class="wrap">
             <div class="left">
                 <a href="index.html"><img class="footer_logo" src="img/footer_logo.svg" alt=""></a>
-                <div>
+                <div class="pc_flex">
                     <a href=""><img src="img/footer_instagram.svg" alt=""></a>
                     <a href=""><img src="img/footer_twitter.svg" alt=""></a>
                 </div>
+
+                <div class="sp_only">
+                    <p>〒 215-0021</p>
+                    <p>神奈川県川崎市麻生区麻生5-38-9</p>
+                    <p>営業時間 00:00～00:00</p>
+                </div>
             </div>
 
-            <div class="center">
+            <div class="center pc_only">
                 <p>TEL:<a href="tel:000-0000-0000">000-0000-0000</a></p>
                 <p>〒 215-0021</p>
                 <p>神奈川県川崎市麻生区麻生5-38-9</p>
