@@ -1,4 +1,18 @@
 @charset "UTF-8";
+#kv{
+    background: #C40018;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#kv p{
+    left: -6rem;
+}
+
+#kv img{
+    width: 60rem;
+}
 
 #app{
     width: 85%;
@@ -20,6 +34,7 @@
 
 #app > p{
     margin-bottom: 7.5rem;
+    text-align: center;
 }
 
 #app .point{
@@ -48,9 +63,22 @@
     margin-bottom: 3.5rem;
 }
 
+@keyframes download{
+    0%{
+        transform: translateY(-2rem);
+    }
+    50%{
+        transform: translateY(2rem);
+    }
+    100%{
+        transform: translateY(-2rem);
+    }
+}
+
 #app .download > img{
     height: 17rem;
     margin-bottom: 3.5rem;
+    animation: download 2s ease-in-out infinite;
 }
 
 #app .download div{

@@ -1,4 +1,8 @@
 @charset "UTF-8";
+#kv p{
+    left: -16rem;
+}
+
 
 #message{
     width: 85%;

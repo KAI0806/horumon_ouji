@@ -1,4 +1,25 @@
 @charset "UTF-8";
+#kv{
+    background: url("../img/mv_pc.jpg") no-repeat center center/cover;
+}
+
+#kv .wrap{
+    width: 85%;
+    max-width: 1440px;
+    margin: auto;
+}
+
+#kv h3{
+    font-size: 6rem;
+    font-family: "游明朝", YuMincho, "Hiragino Mincho ProN W3", "ヒラギノ明朝 ProN W3", "Hiragino Mincho ProN", "HG明朝E", "ＭＳ Ｐ明朝", "ＭＳ 明朝", serif;
+    text-align: right;
+    color: white;
+    background: rgba(52, 52, 52, 20%);
+    display: inline-block;
+    padding: 4.5rem 6rem;
+    margin-top: 13.5rem;
+}
+
 #message{
     display: flex;
     flex-direction: column;
@@ -185,6 +206,14 @@
 }
 
 @media screen and (max-width: 767px){
+    #kv{
+        background: url("../img/mv_bg_sp.jpg") no-repeat center center/cover;
+    }
+
+    #kv h3{
+        font-size: 7.5rem;
+    }
+
     .side_txt{
         position: fixed;
         left: 1rem;

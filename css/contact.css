@@ -1,4 +1,7 @@
 @charset "UTF-8";
+#kv p{
+    left: 0rem;
+}
 
 #contact{
     width: 85%;
@@ -19,7 +22,10 @@
 }
 
 #contact > p{
+    font-size: 2.8rem;
     margin-bottom: 7.5rem;
+    text-align: center;
+    line-height: 200%;
 }
 
 #form{
@@ -104,6 +110,7 @@ textarea{
 
     #contact > p{
         margin-bottom: 17rem;
+        font-size: 4.3rem;
     }
 
     label{
@@ -148,8 +155,8 @@ textarea{
 
     .button_wrap button{
         font-size: 5rem;
-        padding: 6rem 20rem;
-        margin-top: 7rem;
+        padding: 4rem 20rem;
+        margin-top: 4rem;
         border-radius: 3rem;
     }
 }

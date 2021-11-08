@@ -1,4 +1,7 @@
 @charset "UTF-8";
+#kv p{
+    left: -14rem;
+}
 
 #menu{
     width: 85%;
