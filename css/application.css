@@ -323,6 +323,10 @@ footer .wrap .right a::before{
         font-size: 4.37rem;
     }
 
+    header{
+        height: 17rem;
+    }
+
     header .wrap{
         width: 100%;
     }
