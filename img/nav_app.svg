@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="84" height="49.504" viewBox="0 0 84 49.504">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="77.952" height="46.008" viewBox="0 0 77.952 46.008">
   <defs>
     <linearGradient id="linear-gradient" x1="0.5" x2="0.5" y2="1" gradientUnits="objectBoundingBox">
       <stop offset="0" stop-color="#fff"/>
       <stop offset="1" stop-color="#7e7e7e"/>
     </linearGradient>
   </defs>
-  <g id="グループ_916" data-name="グループ 916" transform="translate(-1571 -60.104)">
-    <text id="アプリ" transform="translate(1571 85.104)" fill="#3f3f3f" font-size="28" font-family="TA-F1blockline"><tspan x="0" y="0">アプリ</tspan></text>
+  <g id="グループ_916" data-name="グループ 916" transform="translate(-1573.1 -63.6)">
+    <path id="パス_1006" data-name="パス 1006" d="M26.236-20.524H2.1l.616,4.872H19.768L19.376-8.54h3.752ZM14.7-13.02l-5.572.028V1.372h2.408ZM52.808-7.868H47.656l.056,4.732h4.34Zm.56-11.648H31.024l.616,5.04H47.012L40.04.98H43.2L47.1-5.488v-3h1.848l3.5-5.824ZM51.492-6.72l-.308,2.6H48.72l.112-2.6ZM80.052-21.5H73.78l-.2,14.112-4.9,8.652h2.968l5.32-6.972ZM66.36-21H59.976L62.3-7.14h3.752Z" transform="translate(1571 85.104)" fill="#3f3f3f"/>
     <path id="パス_986" data-name="パス 986" d="M26.236-1.476H2.1l.616-4.872H19.768l-.392-7.112h3.752ZM14.7-8.98,9.128-9.008V-23.372h2.408Zm38.108-5.152H47.656l.056-4.732h4.34Zm.56,11.648H31.024l.616-5.04H47.012L40.04-22.98H43.2L47.1-16.512v3h1.848l3.5,5.824Zm-1.876-12.8-.308-2.6H48.72l.112,2.6ZM80.052-.5H73.78l-.2-14.112-4.9-8.652h2.968l5.32,6.972ZM66.36-1H59.976L62.3-14.86h3.752Z" transform="translate(1571 110.104)" opacity="0.3" fill="url(#linear-gradient)"/>
   </g>
 </svg>
