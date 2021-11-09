@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/application.css">
     <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/aos.css"/>
     <title>大学生起業家の酒場｜ホルンモン王子</title>
 
     <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト" />
@@ -81,7 +82,7 @@
     <main>
         <section id="kv">
             <div class="wrap">
-                <h3>団らんを楽しむ、
+                <h3 data-aos="fade-up" data-aos-duration="1000">団らんを楽しむ、
                     <br/>今日は一鍋
                 </h3>
             </div>
@@ -90,20 +91,20 @@
         </section>
 
         <section id="message">
-            <img class="message_txt" src="img/message.svg" alt="ALCOHOL COMMUNICATION CENTER">
+            <img class="message_txt" src="img/message.svg" alt="ALCOHOL COMMUNICATION CENTER" data-aos="fade-up" data-aos-anchor-placement="top-center">
             <p class="main_txt">
                 テキストテキストテキストテキストテキストテキスト
                 テキストテキストテキストテキストテキス
                 テキストテキストテキストテキストテキストテキスト
                 テキストテキストテキストテキストテキス
             </p>
-            <img class="message_bottom" src="img/message_img.png" alt="のんで笑って">
+            <img class="message_bottom" src="img/message_img.png" alt="のんで笑って" data-aos="fade-up" data-aos-anchor-placement="top-center">
         </section>
 
         <section id="feature">
             <img src="img/feature_title.svg" alt="ホルモン王子で今日も">
             <div class="wrap">
-                <div>
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000">
                     <img class="pc_only" src="img/feature01.svg" alt="食べて">
                     <img class="sp_only" src="img/feature01_sp.svg" alt="食べて">
                     <p class="sub_txt">
@@ -113,7 +114,7 @@
                         テキストテキストテキストテキストテキスト
                     </p>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" data-aos-delay="400">
                     <img class="pc_only" src="img/feature02.svg" alt="呑んで">
                     <img class="sp_only" src="img/feature02_sp.svg" alt="呑んで">
                     <p class="sub_txt">
@@ -123,7 +124,7 @@
                         テキストテキストテキストテキストテキスト
                     </p>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-anchor-placement="top-center" data-aos-duration="1000" data-aos-delay="800">
                     <img class="pc_only" src="img/feature03.svg" alt="ワイワイ">
                     <img class="sp_only" src="img/feature03_sp.svg" alt="ワイワイ">
                     <p class="sub_txt">
@@ -139,11 +140,11 @@
 
         <section id="menu">
             <img src="img/menu_kv.jpg" alt="メニュー">
-            <p class="menu_kv_txt block_line">
+            <p class="menu_kv_txt block_line" data-aos="fade-right" data-aos-anchor-placement="top-top" data-aos-duration="1000">
                 みんなが集まれる場所。
                <br/> 　　　　<span class="pc_inline">　　</span>地元の愛され酒場。
             </p>
-            <h2 class="block_line">メニュー</h2>
+            <h2 class="block_line" data-aos="fade-up" data-aos-anchor-placement="bottom-top">メニュー</h2>
             <p class="main_txt">
                 テキストテキストテキストテキストテキストテキスト
                 テキストテキストテキストテキストテキス
@@ -151,7 +152,7 @@
                 テキストテキストテキストテキストテキス
             </p>
             <div class="menu_list">
-                <div>
+                <div data-aos="fade-up" data-aos-anchor-placement="bottom-top" data-aos-duration="1000">
                     <img src="img/hinabe.png" alt="テキスト">
                     <div>
                         <h3 class="block_line">火鍋</h3>
@@ -163,7 +164,7 @@
                         </p>
                     </div>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-anchor-placement="bottom-top" data-aos-duration="1000" data-aos-delay="400">
                     <img src="img/buta-zinngisukann.png" alt="テキスト">
                     <div>
                         <h3 class="block_line">豚ギスカン</h3>
@@ -175,7 +176,7 @@
                         </p>
                     </div>
                 </div>
-                <div>
+                <div data-aos="fade-up" data-aos-anchor-placement="bottom-top" data-aos-duration="1000" data-aos-delay="800">
                     <img src="img/motunabe.png" alt="テキスト">
                     <div>
                         <h3 class="block_line">モツ鍋</h3>
@@ -240,5 +241,10 @@
     </footer>
 
     <script src="js/menu.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+        });
+    </script>
 </body>
 </html>

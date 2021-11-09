@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/application.css">
     <link rel="stylesheet" href="css/about.css">
+    <link rel="stylesheet" href="css/aos.css"/>
     <title>ホルモン王子について｜ホルモン王子</title>
 
     <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト" />
@@ -86,7 +87,7 @@
             <p class="main_txt pc_only">WHAT IS HORUMON OUJI</p>
         </section>
 
-        <section id="message">
+        <section id="message" data-aos="fade-up" data-aos-anchor-placement="top-center">
             <div class="message_txt">
                 <h3>アルコール<br/>コミュニケーション</h3>
                 <p>
@@ -104,8 +105,8 @@
             </div>
 
             <div class="cap_img">
-                <h3>テキストテキスト<br/>　　テキストテキスト</h3>
-                <p>
+                <h3 data-aos="fade-up" data-aos-anchor-placement="top-center">テキストテキスト<br/>　　テキストテキスト</h3>
+                <p data-aos="zoom-in" data-aos-anchor-placement="top-center">
                     テキストテキストテキストテキストテキスト
                     <br/>テキストテキストテキストテキスト
                     <br/>テキストテキストテキストテキストテキスト
@@ -114,7 +115,7 @@
             </div>
         </section>
 
-        <section id="company">
+        <section id="company" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
             <img src="img/company_img.jpg" alt="店舗情報">
             <div>
                 <h3>店舗情報</h3>
@@ -178,5 +179,10 @@
     </footer>
 
     <script src="js/menu.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+        });
+    </script>
 </body>
 </html>

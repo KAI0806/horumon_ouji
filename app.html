@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/application.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="css/aos.css"/>
     <title>アプリ始めました｜ホルモン王子</title>
 
     <meta name="description" content="テキストテキストテキストテキストテキストテキストテキストテキスト" />
@@ -85,12 +86,12 @@
         </section>
 
         <section id="app">
-            <h2 class="block_line">アプリ<br/>始めました</h2>
+            <h2 class="block_line" data-aos="fade-up" data-aos-anchor-placement="top-center">アプリ<br/>始めました</h2>
             <p class="main_txt">ホルモン王子が公式アプリを始めました。
                 <br/>来店時にもらえるポイントでいろいろな特典と交換できます。
                 <BR/>交換できる特典は随時更新していますのでぜひご活用下さい！</p>
 
-            <div class="point">
+            <div class="point" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom">
                 <p class="block_line">ポイントをためて<br/>トクテンげっと!</p>
             </div>
 
@@ -103,7 +104,7 @@
                 </div>
             </div>
 
-            <div class="other_menu">
+            <div class="other_menu" data-aos="fade-right" data-aos-anchor-placement="bottom-bottom">
                 <h3 class="block_line">使い方</h3>
                 <div>
                     <div>
@@ -170,5 +171,10 @@
     </footer>
 
     <script src="js/menu.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init({
+        });
+    </script>
 </body>
 </html>
