@@ -494,6 +494,10 @@ footer .wrap .right a::before{
         width: 10rem;
     }
 
+    .side_menu > a{
+        height: 45rem;
+    }
+
     .side_menu > a img{
         width: 5rem;
     }
