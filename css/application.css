@@ -354,7 +354,7 @@ footer .wrap .right a::before{
     #nav .nav_wrap{
         width: 85%;
         margin: auto;
-        margin-top: 22rem;
+        margin-top: 10rem;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -368,7 +368,7 @@ footer .wrap .right a::before{
 
     header .wrap nav ul img{
         height: 15rem;
-        margin-bottom: 17rem;
+        margin-bottom: 15rem;
     }
 
     #nav .nav_wrap .sns{
