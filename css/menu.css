@@ -19,6 +19,7 @@
     writing-mode: vertical-rl;
     font-size: 7.5rem;
     margin-bottom: 8rem;
+    font-weight: normal;
 }
 
 #menu > p{
@@ -27,7 +28,7 @@
 
 #menu .menu_list{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
     margin-bottom: 35rem;
@@ -41,8 +42,9 @@
     font-family: ta-f1blockline, sans-serif;
     color: white;
     width: max-content;
-    transform: rotateZ(-30deg);
-    top: 55%;
+    transform: rotateZ(-30deg) translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
     z-index: -1;
 }
 
@@ -59,10 +61,11 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 100%;
 }
 
 #menu .menu_list div img{
-    height: 64rem;
+    height: 56rem;
     transform: translateX(-5rem);
 }
 
@@ -78,7 +81,9 @@
 }
 
 #menu .menu_list div p{
-    width: 90%;
+    width: 80%;
+    text-align: center;
+    line-height: 180%;
 }
 
 #menu .menu_list div:nth-child(3){
@@ -130,10 +135,9 @@
     border-radius: 10rem;
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     flex-direction: column;
-    padding: 7rem 0;
-    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+    padding: 7rem 12rem;
     font-weight: 600;
 }
 
@@ -141,7 +145,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 65%;
+    width: 92%;
     margin: 1rem 0;
 }
 
@@ -152,14 +156,19 @@
 }
 
 #menu .other_menu p{
-    font-size: 3.5rem;
+    font-size: 4.5rem;
     width: 20%;
+    font-weight: normal;
 }
 
-#menu .other_menu div .block_line{
-    font-size: 4.6rem;
+#menu .other_menu div div p:first-child{
+    font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
+}
+
+#menu .other_menu div div p:nth-child(2){
+    font-size: 4rem;
     width: 80%;
-    font-weight: 100;
+    font-weight: bold;
 }
 
 #menu .caution{
@@ -187,11 +196,12 @@
 
     #menu .menu_list::before{
         font-size: 24rem;
+        top: 25%;
     }
 
     #menu .menu_list{
         flex-direction: column;
-        margin-bottom: 19rem;
+        margin-bottom: 10rem;
     }
 
     #menu .menu_list > div{
@@ -219,6 +229,7 @@
     #menu .menu_list div p{
         width: 100%;
         font-size: 3.8rem;
+        text-align: left;
     }
 
     #menu .menu_list div:nth-child(3){
@@ -239,7 +250,7 @@
     #menu .other_menu{
         width: 80%;
         transform: translateX(-5%);
-        margin-bottom: 14rem;
+        margin-bottom: 5rem;
     }
 
     #menu .other_menu h3{
@@ -258,7 +269,7 @@
     }
 
     #menu .other_menu > div > div{
-        width: 75%;
+        width: 90%;
         justify-content: space-between;
     }
 
@@ -267,14 +278,14 @@
     }
 
     #menu .other_menu::before{
-        bottom: 0;
-        right: 62%;
-        z-index: -1;
+        bottom: 20rem;
+        right: 68%;
+        z-index: 0;
     }
 
     #menu .caution{
-        width: 75%;
-        margin-bottom: 29rem;
+        width: 87%;
+        margin-bottom: 20rem;
     }
     
 }
