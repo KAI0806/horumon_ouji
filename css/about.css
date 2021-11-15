@@ -220,6 +220,11 @@
         width: 93%;
     }
 
+    #company div::before{
+        right: 32rem;
+        top: 3rem;
+    }
+
     #map iframe{
         width: calc(100% - 20rem);
         margin-left: 5rem;
