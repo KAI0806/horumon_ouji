@@ -1,9 +1,9 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="183.642" height="189.7" viewBox="0 0 183.642 189.7">
-  <g id="グループ_6" data-name="グループ 6" transform="translate(28.695 -226.354) rotate(21)">
-    <text id="ホ" transform="translate(108 325)" fill="#c40018" font-size="144" font-family="MS-PGothic, MS PGothic"><tspan x="0" y="0">ホ</tspan></text>
-    <g id="楕円形_1" data-name="楕円形 1" transform="translate(104 210)" fill="none" stroke="#c40018" stroke-width="8">
-      <ellipse cx="71.291" cy="70.5" rx="71.291" ry="70.5" stroke="none"/>
-      <ellipse cx="71.291" cy="70.5" rx="67.291" ry="66.5" fill="none"/>
+<svg xmlns="http://www.w3.org/2000/svg" width="78.048" height="77.661" viewBox="0 0 78.048 77.661">
+  <g id="グループ_6" data-name="グループ 6" transform="translate(22.846 -3.571) rotate(21)">
+    <path id="パス_1027" data-name="パス 1027" d="M16.918-19.777A132.894,132.894,0,0,1,7.863-3.336L2.621-6.2A100.786,100.786,0,0,0,12.629-24.3l5.242,2.859Q19.3-20.254,16.918-19.777Zm8.1-28.117h5q2.621.477.477,1.906v11.438H52.422v5.242H30.5V3.813H25.02V-29.309H3.574v-5.242H25.02ZM49.563-4.051A86.21,86.21,0,0,0,37.41-20.492L41.938-24.3A87.578,87.578,0,0,1,54.8-7.625Z" transform="translate(1.7 52)" fill="#c40018"/>
+    <g id="楕円形_1" data-name="楕円形 1" transform="translate(0 3.825)" fill="none" stroke="#c40018" stroke-width="5">
+      <ellipse cx="30.299" cy="29.962" rx="30.299" ry="29.962" stroke="none"/>
+      <ellipse cx="30.299" cy="29.962" rx="27.799" ry="27.462" fill="none"/>
     </g>
   </g>
 </svg>
