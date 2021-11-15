@@ -177,6 +177,7 @@
 
     #message .message_txt p{
         font-size: 3.8rem;
+        height: max-content;
     }
 
     #message .cap_img{
