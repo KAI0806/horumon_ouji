@@ -17,13 +17,14 @@
 #menu h2{
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    font-size: 7.5rem;
+    font-size: 6.4rem;
     margin-bottom: 8rem;
     font-weight: normal;
 }
 
 #menu > p{
     margin-bottom: 7.5rem;
+    text-align: center;
 }
 
 #menu .menu_list{
@@ -38,7 +39,7 @@
 #menu .menu_list::before{
     position: absolute;
     content: "ホルモン王子";
-    font-size: 29rem;
+    font-size: 25rem;
     font-family: ta-f1blockline, sans-serif;
     color: white;
     width: max-content;
@@ -74,7 +75,7 @@
 }
 
 #menu .menu_list div h3{
-    font-size: 4.6rem;
+    font-size: 4rem;
     color: #3F3F3F;
     margin-top: 3rem;
     margin-bottom: 1.8rem;
@@ -124,7 +125,7 @@
 #menu .other_menu h3{
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    font-size: 7.5rem;
+    font-size: 6.4rem;
     position: absolute;
     top: -7rem;
     left: 10rem;

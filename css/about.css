@@ -1,6 +1,10 @@
 @charset "UTF-8";
+#kv{
+    background: url("../img/about_kv.jpg") no-repeat center center/cover;
+}
+
 #kv p{
-    left: -16rem;
+    left: -13rem;
 }
 
 
@@ -27,13 +31,13 @@
 #message .message_txt h3{
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    font-size: 7.2rem;
+    font-size: 6.4rem;
 }
 
 #message .message_txt p{
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    font-size: 4rem;
+    font-size: 3.4rem;
     letter-spacing: 1rem;
 }
 
@@ -47,7 +51,7 @@
 
 #message .cap_img h3{
     position: absolute;
-    font-size: 7.4rem;
+    font-size: 6.4rem;
     line-height:200%;
     color: #3F3F3F;
     -ms-writing-mode: tb-rl;
@@ -120,13 +124,13 @@
 }
 
 #company div h3{
-    font-size: 5.5rem;
+    font-size: 4.8rem;
     color: #C40018;
     line-height: 100%;
 }
 
 #company div h4{
-    font-size: 4.6rem;
+    font-size: 4rem;
     margin: 5.5rem 0 3rem;
     color: #C40018;
     line-height: 100%;
@@ -157,9 +161,8 @@
 
 @media screen and (max-width: 767px){
     #message{
-        width: calc(100% - 15rem);
-        margin-left: 0;
-        margin-bottom: 78rem;
+        width: calc(100% - 20rem);
+        margin: 16rem 15rem 78rem 5rem;
     }
 
     #message .message_txt{
@@ -168,6 +171,11 @@
 
     #message .message_txt h3{
         line-height: 120%;
+        font-size: 7.5rem;
+    }
+
+    #message .message_txt p{
+        font-size: 3.8rem;
     }
 
     #message .cap_img{
@@ -211,9 +219,10 @@
     }
 
     #map iframe{
-        width: calc(100% - 15rem);
-        margin-left: 0;
+        width: calc(100% - 20rem);
+        margin-left: 5rem;
         height: 49rem;
+        
         margin-bottom: 29rem;
     }
 }

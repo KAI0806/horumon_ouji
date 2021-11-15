@@ -28,24 +28,24 @@
 #app h2{
     -ms-writing-mode: tb-rl;
     writing-mode: vertical-rl;
-    font-size: 7.5rem;
+    font-size: 6.4rem;
     margin-bottom: 8rem;
     font-weight: normal;
 }
 
 #app > p{
-    margin-bottom: 7.5rem;
+    margin-bottom: 2.6rem;
     text-align: center;
 }
 
 #app .point{
     background: url("../img/point_bg.svg") no-repeat center center/contain;
     padding: 10rem 10rem 5rem;
-    margin-bottom: 11rem;
+    margin-bottom: 10rem;
 }
 
 #app .point p{
-    font-size: 4.6rem;
+    font-size: 4rem;
     color: #C40018;
     line-height: 200%;
 }
@@ -59,7 +59,7 @@
 }
 
 #app .download > p{
-    font-size: 4.6rem;
+    font-size: 4rem;
     color: #3F3F3F;
     margin-bottom: 3.5rem;
 }
@@ -77,7 +77,7 @@
 }
 
 #app .download > img{
-    height: 17rem;
+    height: 15rem;
     margin-bottom: 3.5rem;
     animation: download 2s ease-in-out infinite;
 }
@@ -125,7 +125,7 @@
     position: absolute;
     content: "ホルモンアプリ";
     color: #3F3F3F;
-    font-size: 17.4rem;
+    font-size: 15rem;
     width: fit-content;
     opacity: .1;
     font-family: ta-f1blockline, sans-serif;

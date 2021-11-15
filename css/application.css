@@ -38,7 +38,7 @@ p{
 }
 
 .main_txt{
-    font-size: 3.25rem;
+    font-size: 2.8rem;
 }
 
 .sub_txt{
@@ -133,7 +133,7 @@ main{
     transform: rotateZ(90deg);
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     position: absolute;
-    left: -18rem;
+    left: -20rem;
     bottom: 45%;
     color: #3F3F3F;
 }
@@ -166,7 +166,7 @@ main{
     height: 60%;
     width: 75%;
     text-align: center;
-    font-size: 4.6rem;
+    font-size: 4rem;
     color: white;
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     -ms-writing-mode: tb-rl;
@@ -176,7 +176,7 @@ main{
 }
 
 .side_menu img{
-    width: 5.8rem;
+    width: 5rem;
     transition: all .2s ease-in-out;
 }
 
@@ -199,10 +199,10 @@ footer{
 footer .footer_recruit{
     position: absolute;
     background: #418D43;
-    width: 52rem;
-    height: 14rem;
-    top: -14rem;
-    right: 10rem;
+    width: 45rem;
+    height: 12.5rem;
+    top: -12.5rem;
+    right: 13rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -210,12 +210,12 @@ footer .footer_recruit{
 }
 
 footer .footer_recruit a{
-    font-size: 4.6rem;
+    font-size: 4rem;
 }
 
 footer > p{
     text-align: center;
-    font-size: 2.3rem;
+    font-size: 2rem;
 }
 
 footer a{
@@ -229,12 +229,12 @@ footer .wrap{
     margin: auto;
     justify-content: space-between;
     align-items: flex-start;
-    padding: 11rem 0 6rem;
+    padding: 10rem 0 5.3rem;
 }
 
 footer .footer_logo{
-    height: 11rem;
-    margin-bottom: 7rem;
+    height: 10rem;
+    margin-bottom: 6.23rem;
 }
 
 footer .wrap a{
@@ -258,7 +258,7 @@ footer .wrap .left{
 }
 
 footer .wrap .left .pc_flex a img{
-    width: 5.5rem;
+    width: 4.768rem;
 }
 
 footer .wrap .center{
@@ -266,7 +266,7 @@ footer .wrap .center{
 }
 
 footer .wrap .right{
-    width: 31%;
+    width: 29%;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -274,11 +274,11 @@ footer .wrap .right{
 }
 
 footer .wrap .center p{
-    font-size: 4.2rem;
+    font-size: 3.6rem;
 }
 
 footer .wrap .right a{
-    font-size: 3.25rem;
+    font-size: 2.8rem;
     position: relative;
     margin-bottom: 3.5rem;
 }
