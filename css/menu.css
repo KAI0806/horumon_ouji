@@ -1,4 +1,8 @@
 @charset "UTF-8";
+#kv{
+    background: url("../img/menu_kv_pc.jpg") no-repeat center center/cover;
+}
+
 #kv p{
     left: -14rem;
 }
