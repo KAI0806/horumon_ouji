@@ -1,72 +1,72 @@
 @charset "UTF-8";
-html{
+html {
     font-size: 0.5208vw;
     scroll-behavior: smooth;
     font-family: "ヒラギノ明朝 ProN W6", "HiraMinProN-W6", "HG明朝E", "ＭＳ Ｐ明朝", "MS PMincho", "MS 明朝", serif;
 }
 
-body{
+body {
     margin: 0;
     background: #F5F0E3;
     overflow-x: hidden;
 }
 
-ul{
+ul {
     margin: 0;
     padding: 0;
     list-style: none;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-h2{
+h2 {
     margin: 0;
 }
 
-h3{
+h3 {
     margin: 0;
 }
 
-h4{
+h4 {
     margin: 0;
 }
 
-p{
+p {
     margin: 0;
     line-height: 1.4;
 }
 
-.main_txt{
+.main_txt {
     font-size: 2.8rem;
 }
 
-.sub_txt{
+.sub_txt {
     font-size: 2.2rem;
 }
 
-.block_line{
+.block_line {
     font-family: ta-f1blockline, sans-serif;
 }
 
-.pc_only{
+.pc_only {
     display: block;
 }
 
-.pc_flex{
+.pc_flex {
     display: flex;
 }
 
-.pc_inline{
+.pc_inline {
     display: inline;
 }
 
-.sp_only{
+.sp_only {
     display: none;
 }
 
-header{
+header {
     height: 13rem;
     background: #F5F0E3;
     display: flex;
@@ -78,7 +78,7 @@ header{
     z-index: 9999;
 }
 
-header .wrap{
+header .wrap {
     width: 90%;
     margin: auto;
     display: flex;
@@ -86,51 +86,50 @@ header .wrap{
     align-items: center;
 }
 
-header .wrap .header_logo{
+header .wrap .header_logo {
     height: 10rem;
     transition: all .2s ease-in-out;
 }
 
-header .wrap .header_logo:hover{
+header .wrap .header_logo:hover {
     opacity: .3;
     transition: all .3s ease-in-out;
 }
 
-header .wrap nav{
+header .wrap nav {
     width: 45%;
 }
 
-header .wrap nav ul{
+header .wrap nav ul {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-header .wrap nav ul img{
+header .wrap nav ul img {
     height: 5rem;
     transition: all .2s ease-in-out;
 }
 
-header .wrap nav ul img:hover{
+header .wrap nav ul img:hover {
     opacity: .3;
     transition: all .3s ease-in-out;
 }
 
-main{
+main {
     padding-top: 13rem;
     overflow-x: hidden;
     color: #3F3F3F;
 }
 
-
-#kv{
-    background: url("../img/kv_pc.jpg") no-repeat center center/cover;
+#kv {
+    background: url("../img/about_kv.jpg") no-repeat center center/cover;
     height: 80.6rem;
     width: 92.86%;
     position: relative;
 }
 
-#kv p{
+#kv p {
     transform: rotateZ(90deg);
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     position: absolute;
@@ -139,8 +138,7 @@ main{
     color: #3F3F3F;
 }
 
-
-.side_menu{
+.side_menu {
     position: fixed;
     top: 13rem;
     right: 0;
@@ -154,7 +152,7 @@ main{
     background: #F5F0E3;
 }
 
-.side_menu > div{
+.side_menu>div {
     height: 40%;
     display: flex;
     flex-direction: column;
@@ -162,7 +160,7 @@ main{
     align-items: center;
 }
 
-.side_menu > a{
+.side_menu>a {
     background: #C40018;
     height: 60%;
     width: 75%;
@@ -176,28 +174,28 @@ main{
     padding-right: 25%;
 }
 
-.side_menu img{
+.side_menu img {
     width: 5rem;
     transition: all .2s ease-in-out;
 }
 
-.side_menu img:hover{
+.side_menu img:hover {
     opacity: .3;
     transition: all .3s ease-in-out;
 }
 
-.side_menu > a img{
+.side_menu>a img {
     margin-bottom: 1rem;
 }
 
-footer{
+footer {
     background: #C40018;
     color: white;
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     position: relative;
 }
 
-footer .footer_recruit{
+footer .footer_recruit {
     position: absolute;
     background: #418D43;
     width: 45rem;
@@ -210,21 +208,21 @@ footer .footer_recruit{
     box-shadow: 0 3px 6px rgba(0, 0, 0, 16%);
 }
 
-footer .footer_recruit a{
+footer .footer_recruit a {
     font-size: 4rem;
 }
 
-footer > p{
+footer>p {
     text-align: center;
     font-size: 2rem;
 }
 
-footer a{
+footer a {
     color: white;
     font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
 }
 
-footer .wrap{
+footer .wrap {
     width: 85%;
     display: flex;
     margin: auto;
@@ -233,40 +231,40 @@ footer .wrap{
     padding: 10rem 0 5.3rem;
 }
 
-footer .footer_logo{
+footer .footer_logo {
     height: 10rem;
     margin-bottom: 6.23rem;
 }
 
-footer .wrap a{
+footer .wrap a {
     opacity: 1;
     transition: all .2s ease-in-out;
 }
 
-footer .wrap a:hover{
+footer .wrap a:hover {
     opacity: .5;
     transition: all .3s ease-in-out;
 }
 
-footer .wrap .left .pc_flex{
+footer .wrap .left .pc_flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-footer .wrap .left{
+footer .wrap .left {
     width: 15%;
 }
 
-footer .wrap .left .pc_flex a img{
+footer .wrap .left .pc_flex a img {
     width: 4.768rem;
 }
 
-footer .wrap .center{
+footer .wrap .center {
     width: 40%;
 }
 
-footer .wrap .right{
+footer .wrap .right {
     width: 29%;
     display: flex;
     justify-content: space-between;
@@ -274,17 +272,17 @@ footer .wrap .right{
     flex-wrap: wrap;
 }
 
-footer .wrap .center p{
+footer .wrap .center p {
     font-size: 3.6rem;
 }
 
-footer .wrap .right a{
+footer .wrap .right a {
     font-size: 2.8rem;
     position: relative;
     margin-bottom: 3.5rem;
 }
 
-footer .wrap .right a::before{
+footer .wrap .right a::before {
     position: absolute;
     content: "";
     height: 1.6rem;
@@ -296,48 +294,38 @@ footer .wrap .right a::before{
 }
 
 @media screen and (max-width: 767px) {
-    html{
+    html {
         font-size: 0.8508vw;
     }
-
-    .pc_only{
+    .pc_only {
         display: none;
     }
-    
-    .sp_only{
+    .sp_only {
         display: block;
     }
-
-    .pc_flex{
+    .pc_flex {
         display: none !important;
     }
-
-    .pc_inline{
+    .pc_inline {
         display: none;
     }
-
-    .main_txt{
+    .main_txt {
         font-size: 4.37rem;
     }
-
-    .sub_txt{
+    .sub_txt {
         font-size: 4.37rem;
     }
-
-    header{
+    header {
         height: 17rem;
     }
-
-    header .wrap{
+    header .wrap {
         width: 100%;
     }
-
-    header .wrap .header_logo{
+    header .wrap .header_logo {
         margin-left: 3rem;
         height: 14.5rem;
     }
-
-    #nav{
+    #nav {
         padding: 0;
         position: fixed;
         width: 100%;
@@ -351,8 +339,7 @@ footer .wrap .right a::before{
         overflow-y: scroll;
         line-height: 1.2;
     }
-
-    #nav .nav_wrap{
+    #nav .nav_wrap {
         width: 85%;
         margin: auto;
         margin-top: 10rem;
@@ -362,60 +349,49 @@ footer .wrap .right a::before{
         flex-direction: column;
         font-family: "游ゴシック体", YuGothic, "游ゴシック Medium", "Yu Gothic Medium", "游ゴシック", "Yu Gothic", sans-serif;
     }
-
-    #nav .nav_wrap ul{
+    #nav .nav_wrap ul {
         flex-direction: column;
     }
-
-    header .wrap nav ul img{
+    header .wrap nav ul img {
         height: 15rem;
         margin-bottom: 10rem;
     }
-
-    #nav .nav_wrap .sns{
+    #nav .nav_wrap .sns {
         display: flex;
         justify-content: center;
         align-items: center;
         margin-bottom: 11rem;
     }
-
-    #nav .nav_wrap .sns img{
+    #nav .nav_wrap .sns img {
         margin: 0 5rem;
         width: 10rem;
     }
-
-    #nav .nav_wrap > a{
+    #nav .nav_wrap>a {
         font-size: 6.5rem;
         color: #3F3F3F;
         margin-bottom: 13rem;
     }
-
-    #nav .nav_wrap > a img{
+    #nav .nav_wrap>a img {
         width: 6.5rem;
         margin-right: 2rem;
     }
-
-    #nav .nav_wrap .app_list{
+    #nav .nav_wrap .app_list {
         display: flex;
         justify-content: space-between;
         align-items: center;
         margin-bottom: 6rem;
     }
-
-    #nav .nav_wrap .app_list a{
+    #nav .nav_wrap .app_list a {
         width: 48%;
     }
-
-    #nav .nav_wrap .app_list img{
+    #nav .nav_wrap .app_list img {
         width: 100%;
     }
-
-    #nav .nav_wrap > p{
+    #nav .nav_wrap>p {
         position: relative;
         font-size: 4.4rem;
     }
-
-    #nav .nav_wrap > p::before{
+    #nav .nav_wrap>p::before {
         position: absolute;
         content: "";
         height: 3px;
@@ -425,7 +401,6 @@ footer .wrap .right a::before{
         bottom: .1rem;
         z-index: 10;
     }
-
     #hamburger {
         width: 17rem;
         height: 17rem;
@@ -434,7 +409,6 @@ footer .wrap .right a::before{
         position: relative;
         z-index: 1;
     }
-
     .inner_line {
         display: block;
         position: absolute;
@@ -447,138 +421,112 @@ footer .wrap .right a::before{
         background-color: white;
         transition: all 1s ease-out;
     }
-
     #line1 {
         top: 30%;
     }
-
     #line2 {
         top: 47%;
     }
-
     #line3 {
         bottom: 30%;
     }
-
-    .in{
+    .in {
         transform: translateX(-100%);
         opacity: 1 !important;
     }
-
-    .line_1,.line_2,.line_3{
+    .line_1,
+    .line_2,
+    .line_3 {
         background: white;
         z-index: 100;
     }
-
     .line_1 {
         transform: translate(-4rem, 3rem) rotate(-45deg);
         top: 0;
     }
-
     .line_2 {
         opacity: 0;
     }
-    
     .line_3 {
         transform: translate(-4rem, -3rem) rotate(45deg);
         bottom: 0;
     }
-
-    .side_menu{
+    .side_menu {
         top: unset;
         bottom: 0;
         width: 15rem;
         height: 75rem;
     }
-
-    .side_menu img{
+    .side_menu img {
         width: 10rem;
     }
-
-    .side_menu > a{
+    .side_menu>a {
         height: 45rem;
     }
-
-    .side_menu > a img{
+    .side_menu>a img {
         width: 5rem;
     }
-
-    main{
+    main {
         padding-top: 17rem;
     }
-
-    #kv{
+    #kv {
         width: 100%;
         height: 119rem;
     }
-
-    footer{
+    footer {
         width: 87.6%;
     }
-
-    footer p{
+    footer p {
         font-size: 3.2rem;
     }
-
-    footer .footer_recruit{
+    footer .footer_recruit {
         width: 100%;
         left: 0;
         right: unset;
     }
-
-    footer .footer_recruit a{
+    footer .footer_recruit a {
         font-size: 7.5rem;
         transform: translateX(8rem);
     }
-
-    footer .wrap{
+    footer .wrap {
         margin-right: 0;
         width: 95%;
         align-items: flex-end;
         padding: 6rem 0;
     }
-
-    footer .wrap .left{
+    footer .wrap .left {
         width: 55%;
     }
-
-    footer .wrap .left div{
+    footer .wrap .left div {
         flex-direction: column;
         align-items: flex-start;
     }
-
-    footer .footer_logo{
+    footer .footer_logo {
         height: 17.3rem;
         margin-bottom: .5rem;
     }
-
-    footer .wrap .right{
+    footer .wrap .right {
         width: 39%;
     }
-
-    footer .wrap .right a{
+    footer .wrap .right a {
         font-size: 3.8rem;
     }
-
-    footer > p{
+    footer>p {
         transform: translateX(8rem);
     }
 }
 
-@media screen and (max-width: 320px){
-    html{
+@media screen and (max-width: 320px) {
+    html {
         font-size: 0.6808vw;
     }
-
-    footer{
+    footer {
         width: 90%;
     }
-
     footer .wrap .left {
         width: 56%;
     }
-
-    footer .wrap .right{
+    footer .wrap .right {
         width: 37%;
     }
 }
